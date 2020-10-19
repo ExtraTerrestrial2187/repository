@@ -1,0 +1,21 @@
+from sense_hat import SenseHat
+from time import sleep
+sense=SenseHat()
+blue=(0,0,255)
+red=(255,0,0)
+yellow=(255,255,0)
+green=(0,255,0)
+cyan=(0,255,255)
+magenta=(255,0,255)
+white=(255,255,255)
+sense.show_letter("T",blue,back_colour=red)
+sleep(.5)
+sense.show_letter("E",red,back_colour=blue)
+sleep(.5)
+sense.show_letter("N",blue,back_colour=red)
+sleep(.5)
+sense.show_letter("E",red,back_colour=blue)
+sleep(.5)
+sense.show_letter("T",blue,back_colour=red)
+sleep(.5)
+
